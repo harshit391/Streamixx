@@ -1,83 +1,3 @@
-@font-face{
-  font-family: robo;
-  src: url(./fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf);
-}
-
-html
-{
-  scroll-behavior: smooth;
-  color: white;
-}
-
-body{
-  font-family: 'Poppins';
-}
-body{
-  background: black;
-}
-
-@font-face{
-  font-family: play;
-  src: url(./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
-}
-
-@font-face {
-  font-family: mont;
-  src: url(./fonts/Montserrat/static/Montserrat-Regular.ttf);
-}
-
-.logosite{
-  width: 40px;
-  margin-right: 5px;
-  display: flex;
-}
-
-a
-{
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-}
-
-.logo
-{
-  display: flex;
-}
-
-.navbar
-{
-  display: flex;
-  padding: 15px;
-  text-shadow: 0 0 15px yellow;
-  font-weight: 600;
-  gap: 50px;
-}
-
-.home,.about{
-  margin-right: 20px;
-}
-
-.home,.about,.contact{
-  font-size: 25px;
-  font-family: 'Poppins';
-  color: white;
-}
-
-.top
-{
-  display: flex;
-  justify-content: center;
-  margin-top: -50px;
-}
-
-.streamixx{
-  font-size: 30px;
-  font-family: 'Poppins';
-  color: white;
-  display: flex;
-  letter-spacing: 5px;
-}
-
 .headline{
   color: white;
   display: flex;
@@ -143,7 +63,7 @@ button.pressed {
   justify-content: center;
   padding: 30px;
 }
-  
+
 
 #merge-button
 {
@@ -179,36 +99,8 @@ button.pressed {
     font-size: 55px;
   }
 
-  .top{
-    flex-direction: column;
-    margin-top: 30px;
-  }
-
   #merge-button{
     border: 2px solid white;
     margin:0;
-  }
-
-  .navbar
-  {
-      margin-top: 20px;
-      justify-content: center;
-      gap: 0px;
-  }
-
-  .home,.about
-  {
-      margin-bottom: 20px;
-      margin-right: 40px;
-  }
-
-  .home,.about,.contact
-  {
-      margin-left: -10px;
-  }
-
-  .streamixx
-  {
-      justify-content: center;
   }
 }

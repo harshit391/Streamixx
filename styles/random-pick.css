@@ -1,0 +1,42 @@
+.moviecontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.heading
+{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 0 15px rgb(255, 3, 255);
+}
+
+
+.genreselected
+{
+    display: flex;
+    color: white;
+    text-shadow: 0 0 15px yellow;
+    font-size: 150px;
+    text-align: center;
+    border: 2px solid white;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+
+    .heading{
+      font-size: 55px;
+    }
+
+    .genreselected{
+        font-size: 60px;
+    }
+
+    .moviecontainer{
+        margin-top: 10px;
+    }
+  }
